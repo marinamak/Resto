@@ -1,0 +1,140 @@
+.menu__icon {
+  position: relative;
+  width: 155px;
+  margin: 0 auto;
+  margin-bottom: 76px;
+}
+
+.menu__header {
+  position: absolute;
+  top: 20px;
+  left: 29px;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: @color-white;
+}
+
+.menu__wrap-left {
+  width: 520px;
+
+  .menu__money {
+    padding-right: 25px;
+
+    &::before {
+      content: "";
+
+      position: absolute;
+      top: 13px;
+      right: 98px;
+
+      width: 192px;
+      height: 1px;
+
+      background-color: #e3e1e1;
+    }
+  }
+}
+
+.menu__wrap-right {
+  width: 520px;
+}
+
+.menu__list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  margin-bottom: 35px;
+  padding: 0;
+  list-style: none;
+}
+
+.menu__item {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.menu__item-name {
+  margin: 0;
+}
+
+.menu__money {
+  &::before {
+    content: "";
+
+    position: absolute;
+    top: 13px;
+    right: 69px;
+
+    width: 192px;
+    height: 1px;
+
+    background-color: #e3e1e1;
+  }
+}
+
+.menu__item-content {
+  margin: 0;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 300;
+  color: #b7b7b7;
+}
+
+.menu__button-wrap {
+  position: relative;
+  margin: 0 auto;
+  width: 133px;
+}
+
+.menu__arrow {
+  position: absolute;
+  top: 14px;
+  right: 11px;
+  fill: #b7b7b7;
+}
+
+.menu__button {
+  position: relative;
+  display: block;
+  margin-bottom: 100px;
+  padding: 0;
+  padding-left: 16px;
+  text-align: left;
+  width: 133px;
+  height: 34px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #b7b7b7;
+  background-color: @color-white;
+  border: solid 1px #b7b7b7;
+  text-transform: lowercase;
+
+  &::before {
+    content: "";
+
+    position: absolute;
+    bottom: 10px;
+    left: 97px;
+
+    width: 1px;
+    height: 12px;
+
+    background-color: #b7b7b7;
+  }
+}
+
+.menu__button:hover {
+  color: @color-main;
+  border: solid 1px @color-main;
+
+  .menu__arrow {
+    fill: @color-main;
+  }
+
+  &::before {
+    background-color: @color-main;
+  }
+}

@@ -1,0 +1,35 @@
+.gallery__header {
+  position: relative;
+  margin-top: 180px;
+  margin-bottom: 80px;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  &::before {
+    content: "";
+
+    position: absolute;
+    top: 11px;
+    left: 177px;
+
+    width: 200px;
+    height: 1px;
+
+    background-color: #e5e3e3;
+  }
+}
+
+.gallery__image-block {
+  display: grid;
+  grid-template-columns: 366px 367px 367px;
+  grid-template-rows: 216px 216px;
+  margin-bottom: 200px;
+}
+
+.gallery__image-link {
+  &--first {
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+}

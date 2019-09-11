@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+  <svg style="display:none">
+    <symbol viewBox="0 0 12 12" id="icon-star">
+        <path fill-rule="evenodd" d="M206.5,1835.17q-1.073-2.895-1.536-4.26l-1.488,4.26c-0.864.02-1.872,0.05-3.024,0.08-0.9.03-1.387,0.05-1.472,0.05l3.616,2.7c-0.843,2.83-1.27,4.27-1.28,4.34q3.648-2.6,3.7-2.6l3.712,2.55q-0.657-2.115-1.312-4.32,2.383-1.83,3.568-2.74-1.968-.06-4.48-0.06h0Z" transform="translate(-198.969 -1830.91)"></path>
+    </symbol>
+    <symbol viewBox="0 0 10 7" id="icon-arrow">
+      <path fill-rule="evenodd" d="M794.656,1261.71l5,4.95,5-4.95-1.354-1.37-3.646,3.62-3.646-3.62Z" transform="translate(-794.656 -1260.34)"></path>
+    </symbol>
+  </svg>
+  <header class="page-header">
+    <nav class="main-nav container">
+      <a href="index.html" class="main-nav__logo">
+        <img src="img/Resto.png" width="81" height="30" alt="Логотип ресторана" class="main-nav__logo-image">
+      </a>
+      <ul class="main-nav__list site-list">
+        <li class="site-list__item site-list__item--active"><a href="#" class="site-list__link">Our Story</a></li>
+        <li class="site-list__item"><a href="#menu" class="site-list__link">Menu</a></li>
+        <li class="site-list__item"><a href="#" class="site-list__link">Reservation</a></li>
+        <li class="site-list__item"><a href="#" class="site-list__link">News</a></li>
+        <li class="site-list__item"><a href="#gallery" class="site-list__link">Gallery</a></li>
+      </ul>
+    </nav>
+    <div class="intro">
+      <h2 class="intro__header">This Template Is Awesome</h2>
+      <p class="intro__text">resto restaurant home page website template</p>
+    </div>
+  </header>
+  <main class="page-main container">
+    <h1 class="visually-hidden">Сайт «Resto» – сайт ресторана</h1>
+    <section class="menu">
+      <a name="menu"></a>
+      <div class="menu__icon">
+        <img src="img/menu.svg" width="155" height="75" alt="Иконка меню" class="menu__image">
+        <h2 class="menu__header">The Menu</h2>
+      </div>
+      <ul class="menu__list">
+        <div class="menu__wrap-left">
+          <li class="menu__item">
+            <div class="menu__item-wrap">
+              <p class="menu__item-name">Voluptate cillum fugiat.</p>
+              <p class="menu__item-content">Cheese, tomato, mushrooms, onions.</p>
+            </div>
+            <span class="menu__money">$50</span>
+          </li>
+          <li class="menu__item">
+            <div class="menu__item-wrap">
+              <p class="menu__item-name">Metus varius laoreet.</p>
+              <p class="menu__item-content">Chicken, mozzarella cheese, onions.</p>
+            </div>
+            <span class="menu__money">$62</span>
+          </li>
+          <li class="menu__item">
+            <div class="menu__item-wrap">
+              <p class="menu__item-name">Donec sodales magna.</p>
+              <p class="menu__item-content">Tuna, Sweetcorn, Cheese.</p>
+            </div>
+            <span class="menu__money">$25</span>
+          </li>
+          <li class="menu__item">
+            <div class="menu__item-wrap">
+              <p class="menu__item-name">Saugue velit cursus.</p>
+              <p class="menu__item-content">Pineapple, Minced Beef, Cheese.</p>
+            </div>
+            <span class="menu__money">$30</span>
+          </li>
+        </div>
+        <div class="menu__wrap-right">
+          <li class="menu__item">
+            <div class="menu__item-wrap">
+              <p class="menu__item-name">Arcu pede enim justo.</p>
+              <p class="menu__item-content">Tuna, Sweetcorn, Cheese.</p>
+            </div>
+            <span class="menu__money">$45</span>
+          </li>
+          <li class="menu__item">
+            <div class="menu__item-wrap">
+              <p class="menu__item-name">Cras dapibussemper nisi.</p>
+              <p class="menu__item-content">Pineapple, Minced Beef, Cheese.</p>
+            </div>
+            <span class="menu__money">$32</span>
+          </li>
+          <li class="menu__item">
+            <div class="menu__item-wrap">
+              <p class="menu__item-name">Quam semper libero.</p>
+              <p class="menu__item-content">Cheese, tomato, mushrooms, onions.</p>
+            </div>
+            <span class="menu__money">$15</span>
+          </li>
+          <li class="menu__item">
+            <div class="menu__item-wrap">
+              <p class="menu__item-name">Nam eget dui Etiam.</p>
+              <p class="menu__item-content">Chicken, mozzarella cheese, onions.</p>
+            </div>
+            <span class="menu__money">$35</span>
+          </li>
+        </div>
+      </ul>
+      <div class="menu__button-wrap">
+        <button class="menu__button">Load more</button>
+        <svg class="menu__arrow" width="10" height="7">
+          <use xlink:href="#icon-arrow"></use>
+        </svg>
+      </div>
+    </section>
+    <section class="slider">
+      <div class="slider__header-wrap">
+        <h2 class="slider__header">Featured dishes</h2>
+        <div class="slider__switch">
+          <a class="slider__round" href="#"></a>
+          <a class="slider__round slider__round--active" href="#"></a>
+          <a class="slider__round" href="#"></a>
+          <a class="slider__round" href="#"></a>
+        </div>
+      </div>
+      <ul class="slider__list">
+        <li class="slider__item">
+          <a class="slider__image-link" href="#">
+            <img src="img/dish1.jpg" width="230" height="200" alt="Блюдо Fugiat nulla sint" class="slider__image">
+          </a>
+          <div class="slider__desc">
+            <div class="slider__wrap">
+              <a class="slider__item-name" href="#">Fugiat nulla sint</a>
+              <div class="slider__rating">
+                <svg class="slider__star" width="12" height="12">
+                  <use xlink:href="#icon-star"></use>
+                </svg>
+                <svg class="slider__star" width="12" height="12">
+                  <use xlink:href="#icon-star"></use>
+                </svg>
+                <svg class="slider__star" width="12" height="12">
+                  <use xlink:href="#icon-star"></use>
+                </svg>
+                <svg class="slider__star" width="12" height="12">
+                  <use xlink:href="#icon-star"></use>
+                </svg>
+                <svg class="slider__star slider__star--gray" width="12" height="12">
+                  <use xlink:href="#icon-star"></use>
+                </svg>
+              </div>
+            </div>
+            <span class="slider__money">$30</span>
+          </div>
+        </li>
+        <li class="slider__item">
+          <a class="slider__image-link" href="#">
+            <img src="img/dish2.jpg" width="230" height="200" alt="Блюдо Daute irure dolor" class="slider__image">
+          </a>
+          <div class="slider__desc">
+            <div class="slider__wrap">
+              <a class="slider__item-name" href="#">Daute irure dolor</a>
+              <div class="slider__rating">
+                <svg class="slider__star" width="12" height="12">
+                  <use xlink:href="#icon-star"></use>
+                  <use xlink:href="#icon-star"></use>
+                </svg>
+                <svg class="slider__star" width="12" height="12">
+                  <use xlink:href="#icon-star"></use>
+                </svg>
+                <svg class="slider__star" width="12" height="12">
+                  <use xlink:href="#icon-star"></use>
+                </svg>
+                <svg class="slider__star slider__star--gray" width="12" height="12">
+                  <use xlink:href="#icon-star"></use>
+                </svg>
+                <svg class="slider__star slider__star--gray" width="12" height="12">
+                  <use xlink:href="#icon-star"></use>
+                </svg>
+              </div>
+            </div>
+            <span class="slider__money">$24</span>
+          </div>
+        </li>
+        <li class="slider__item">
+          <a class="slider__image-link" href="#">
+            <img src="img/dish3.jpg" width="230" height="200" alt="Блюдо Officia deserunt mollit" class="slider__image">
+          </a>
+          <div class="slider__desc">
+            <div class="slider__wrap">
+              <a class="slider__item-name" href="#">Officia deserunt mollit</a>
+              <div class="slider__rating">
+                <svg class="slider__star" width="12" height="12">
+                  <use xlink:href="#icon-star"></use>
+                  <use xlink:href="#icon-star"></use>
+                </svg>
+                <svg class="slider__star" width="12" height="12">
+                  <use xlink:href="#icon-star"></use>
+                </svg>
+                <svg class="slider__star" width="12" height="12">
+                  <use xlink:href="#icon-star"></use>
+                </svg>
+                <svg class="slider__star" width="12" height="12">
+                  <use xlink:href="#icon-star"></use>
+                </svg>
+                <svg class="slider__star" width="12" height="12">
+                  <use xlink:href="#icon-star"></use>
+                </svg>
+              </div>
+            </div>
+            <span class="slider__money">$60</span>
+          </div>
+        </li>
+        <li class="slider__item">
+          <a class="slider__image-link" href="#">
+            <img src="img/dish4.jpg" width="230" height="200" alt="Блюдо Pim minim veniam" class="slider__image">
+          </a>
+          <div class="slider__desc">
+            <div class="slider__wrap">
+              <a class="slider__item-name" href="#">Pim minim veniam</a>
+              <div class="slider__rating">
+                <svg class="slider__star" width="12" height="12">
+                  <use xlink:href="#icon-star"></use>
+                  <use xlink:href="#icon-star"></use>
+                </svg>
+                <svg class="slider__star" width="12" height="12">
+                  <use xlink:href="#icon-star"></use>
+                </svg>
+                <svg class="slider__star" width="12" height="12">
+                  <use xlink:href="#icon-star"></use>
+                </svg>
+                <svg class="slider__star" width="12" height="12">
+                  <use xlink:href="#icon-star"></use>
+                </svg>
+                <svg class="slider__star slider__star--gray" width="12" height="12">
+                  <use xlink:href="#icon-star"></use>
+                </svg>
+              </div>
+            </div>
+            <span class="slider__money">$17</span>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="gallery">
+      <a name="gallery"></a>
+      <h2 class="gallery__header">The Gallery</h2>
+      <div class="gallery__image-block">
+        <a class="gallery__image-link gallery__image-link--first" href="#">
+          <img src="img/photo1.jpg" width="366" height="432" alt="Фото в галерее" class="gallery__image">
+        </a>
+        <a class="gallery__image-link" href="#">
+          <img src="img/photo2.jpg" width="367" height="216" alt="Фото в галерее" class="gallery__image">
+        </a>
+        <a class="gallery__image-link" href="#">
+          <img src="img/photo3.jpg" width="367" height="216" alt="Фото в галерее" class="gallery__image">
+        </a>
+        <a class="gallery__image-link" href="#">
+          <img src="img/photo4.jpg" width="367" height="216" alt="Фото в галерее" class="gallery__image">
+        </a>
+        <a class="gallery__image-link" href="#">
+          <img src="img/photo5.jpg" width="367" height="216" alt="Фото в галерее" class="gallery__image">
+        </a>
+      </div>
+    </section>
+  </main>
+  <footer class="page-footer">
+    <div class="page-footer__wrap container">
+      <div class="page-footer__item navigation">
+        <p class="navigation__name">New York Restaurant</p>
+        <p class="navigation__address">3926 Anmoore Road</p>
+        <p class="navigation__index">New York, NY 10014</p>
+        <p class="navigation__phone">718-749-1714</p>
+      </div>
+      <div class="page-footer__item navigation">
+        <p class="navigation__name">France Restaurant</p>
+        <p class="navigation__address">68, rue  de la Couronne</p>
+        <p class="navigation__index">75002 PARIS</p>
+        <p class="navigation__phone">02.94.23.69.56</p>
+      </div>
+      <div class="page-footer__item footer-menu">
+        <ul class="footer-menu__list">
+          <li class="footer-menu__item"><a class="footer-menu__link" href="#">Blog</a></li>
+          <li class="footer-menu__item"><a class="footer-menu__link" href="#">Careers</a></li>
+          <li class="footer-menu__item"><a class="footer-menu__link" href="#">Privacy Policy</a></li>
+          <li class="footer-menu__item"><a class="footer-menu__link" href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="page-footer__copyright copyright">
+        <img src="img/RestoLogofooter.png" width="81" height="30" alt="Логотип ресторана Resto" class="copyright__image">
+        <p class="copyright__owner">© All Rights Reserved 2014.</p>
+        <p class="copyright__site">Find  More at
+          <a class="copyright__site-link" href="#">Pixelhint.com</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

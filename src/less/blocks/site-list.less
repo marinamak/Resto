@@ -1,0 +1,29 @@
+.site-list {
+  display: flex;
+}
+
+.site-list__item {
+  padding-left: 24px;
+  padding-right: 24px;
+  list-style: none;
+
+  &:last-child {
+    padding-right: 0;
+  }
+}
+
+.site-list__link {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  height: 20px;
+  font-size: 14px;
+  color: @color-gray;
+
+  &:hover {
+    color: #f34949;
+  }
+
+  &:active {
+    color: @color-lightgray;
+  }
+}
